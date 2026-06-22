@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Produk Tema Pantai</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      scroll-behavior:smooth;
+      color:white;
+    }
+
+    section{
+      width:100%;
+      height:100vh;
+      padding:40px;
+      background-size:cover;
+      background-position:center;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+    }
+
+    h1{
+      font-size:50px;
+      margin-bottom:20px;
+      text-shadow:2px 2px 5px black;
+    }
+
+    h2{
+      font-size:40px;
+      margin-bottom:20px;
+      text-shadow:2px 2px 5px black;
+    }
+
+    p{
+      max-width:800px;
+      font-size:20px;
+      line-height:1.8;
+      background:rgba(0,0,0,0.5);
+      padding:15px;
+      border-radius:10px;
+    }
+
+    .btn{
+      padding:15px 30px;
+      background:#00bfff;
+      color:white;
+      text-decoration:none;
+      border-radius:10px;
+      font-size:20px;
+      transition:0.3s;
+      margin-top:20px;
+    }
+
+    .btn:hover{
+      background:#009acd;
+      transform:scale(1.1);
+    }
+
+    .produk-container{
+      display:flex;
+      gap:20px;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+
+    .card{
+      width:250px;
+      background:rgba(255,255,255,0.2);
+      padding:15px;
+      border-radius:15px;
+      backdrop-filter:blur(5px);
+    }
+
+    .card img{
+      width:100%;
+      height:180px;
+      border-radius:10px;
+      object-fit:cover;
+    }
+
+    .card h3{
+      margin-top:10px;
+    }
+
+    .dokumentasi{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:15px;
+      width:100%;
+      margin-top:20px;
+    }
+
+    .dokumentasi img{
+      width:100%;
+      height:180px;
+      object-fit:cover;
+      border-radius:10px;
+      border:3px solid white;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<!-- HALAMAN 1 -->
+<section style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');">
+  <h1>Selamat Datang</h1>
+  <p>
+    Selamat datang di Website coco style.
+    
+  </p>
+  <a href="#hal2" class="btn">Klik Buka</a>
+</section>
+
+<!-- HALAMAN 2 -->
+<section id="hal2" style="background-image:url('https://images.unsplash.com/photo-1493558103817-58b2924bce98');">
+  <h2>Produk Kami</h2>
+
+  <div class="produk-container">
+
+    <div class="card">
+      <img src="r1b.jpg"="Produk 1">
+      <h3>gelas minum</h3>
+      <p>Harga:rp.5000</p>
+    </div>
+
+    <div class="card">
+      <img src="r2b.jpg" alt="Produk 2">
+      <h3>vas bunga</h3>
+      <p>Harga: Rp10.000</p>
+    </div>
+
+    <div class="card">
+      <img src="r0b.jpg">
+      <h3>lampu</h3>
+      <p>Harga: Rp15.000</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- HALAMAN 3 -->
+<section style="background-image:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');">
+  <h2>Dokumentasi 1</h2>
+
+  <div class="dokumentasi">
+    <img src="r1j.jpg">
+    <img src="r2j.jpg">
+  </div>
+</section>
+
+<!-- HALAMAN 4 -->
+<section style="background-image:url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e');">
+  <h2>Dokumentasi 2</h2>
+
+  <div class="dokumentasi">
+    <img src="f2j.jpg">
+    <img src="p1d.jpg">
+  </div>
+</section>
+
+<!-- HALAMAN 5 -->
+<section style="background-image:url('https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07');">
+  <h2>Dokumentasi 3</h2>
+
+  <div class="dokumentasi">
+    <img src="i1i.jpg">
+    <img src="t1b.jpg">
+  </div>
+</section>
+
+<!-- HALAMAN 6 -->
+<section style="background-image:url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429');">
+  <h2>Penjelasan Produk</h2>
+  <p>
+    Produk yang kami tampilkan memiliki kualitas terbaik,
+    nyaman digunakan
+    Dengan desain menarik dan harga terjangkau,
+    produk ini sangat diminati oleh banyak pelanggan.
+  </p>
+</section>
+
+<!-- HALAMAN 7 -->
+<section style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');">
+  <h2>Keunggulan Produk</h2>
+  <p>
+    Produk dibuat dari bahan berkualitas tinggi,
+    tahan lama, ringan, dan nyaman dipakai.
+    Selain itu desain produk sangat modern dan menarik.
+  </p>
+</section>
+
+<!-- HALAMAN 8 -->
+<section style="background-image:url('https://images.unsplash.com/photo-1470770903676-69b98201ea1c');">
+  <h2>Tujuan Pembuatan</h2>
+  <p>
+    Website ini dibuat untuk memperkenalkan produk
+    kepada masyarakat dengan tampilan menarik,
+    sederhana, dan mudah digunakan.
+  </p>
+</section>
+
+<!-- HALAMAN 9 -->
+<section style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee');">
+  <h2>Terima Kasih</h2>
+  <p>
+    Terima kasih telah mengunjungi website produk kami.
+    Semoga produk yang kami tampilkan dapat bermanfaat
+    dan menarik perhatian Anda.
+  </p>
+</section>
+
+<!-- HALAMAN 10 -->
+<section style="background-image:url('https://images.unsplash.com/photo-1493246507139-91e8fad9978e');">
+  <h1>Penutup</h1>
+  <p>
+    Sampai jumpa kembali di website berikutnya.
+    Jangan lupa untuk terus mendukung produk lokal
+    dan semoga puas dengan produk kami.
+  </p>
+</section>
+
+</body>
+</html>
